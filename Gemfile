@@ -39,6 +39,9 @@ gem 'autoprefixer-rails'
 #Use Compass Framework for Rails
 gem 'compass-rails'
 
+#Use will_paginate library
+gem 'will_paginate'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
