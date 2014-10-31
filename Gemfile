@@ -1,13 +1,10 @@
 source 'https://rubygems.org'
 
 # Ruby version compiler
-ruby ENV['CUSTOM_RUBY_VERSION'] || '2.0.0'
-
-#Plugin Injection 
-gem 'rails_12factor'
+ruby '2.1.1' || '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', '>= 4.0.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -32,6 +29,12 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+# Twitter Bootstrap template
+gem 'bootstrap-sass', '~> 3.2.0'
+
+#Use Autoprefixer
+gem 'autoprefixer-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
