@@ -36,8 +36,8 @@ gem 'bootstrap-sass', '~> 3.2.0'
 #Use Autoprefixer
 gem 'autoprefixer-rails'
 
-#Use Compass Framework
-gem 'compass'
+#Use Compass Framework for Rails
+gem 'compass-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
