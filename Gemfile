@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Ruby version compiler
 ruby ENV['CUSTOM_RUBY_VERSION'] || '2.0.0'
 
+#Plugin Injection 
+gem 'rails_12factor'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
