@@ -45,6 +45,9 @@ gem 'will_paginate'
 #Use Simple Form library
 gem 'simple_form'
 
+#Use devise
+gem 'devise', '~>3.4.1'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
