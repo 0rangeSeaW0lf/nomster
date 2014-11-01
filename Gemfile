@@ -48,6 +48,12 @@ gem 'simple_form'
 #Use devise
 gem 'devise', '~>3.4.1'
 
+#Use geocoder
+gem 'geocoder'
+
+#Use Figaro
+gem 'figaro', '>= 1.0.0'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
