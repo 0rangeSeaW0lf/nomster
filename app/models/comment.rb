@@ -10,8 +10,9 @@ class Comment < ActiveRecord::Base
         'five stars' => '5_stars'
     }
     
+    # Show Human friendly, readable rating
     def humanized_rating
-        RATINGS.inverse[self.rating]
+        RATINGS.invert[self.rating]
     end
     
 end
