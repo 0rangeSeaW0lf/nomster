@@ -57,6 +57,9 @@ gem 'figaro', '>= 1.0.0'
 #Use CarrierWave
 gem 'carrierwave'
 
+#Use Nokogiri for fog
+gem 'nokogiri', '~> 1.5.0'
+
 #Use fog for AWS S3
 gem "fog", "~> 1.3.1"
 
