@@ -61,7 +61,11 @@ gem 'carrierwave'
 gem 'nokogiri', '~> 1.5.0'
 
 #Use fog for AWS S3
-gem "fog", "~> 1.3.1"
+gem "fog", require: "fog/aws/storage"
+
+#Use AWS gem file
+gem 'aws-sdk'
+gem 'carrierwave-aws'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
