@@ -67,6 +67,9 @@ gem "fog", require: "fog/aws/storage"
 gem 'aws-sdk'
 gem 'carrierwave-aws'
 
+# Use Mandrill
+gem 'mandrill-api', '~> 1.0.53'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
