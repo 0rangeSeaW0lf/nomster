@@ -1,6 +1,6 @@
 Nomster::Application.configure do
   
-  config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.delivery_method = :smtp
   
   # config.action_mailer.smtp_settings = {
   #     :user_name => ENV['SENDGRID_USERNAME'],
@@ -12,12 +12,12 @@ Nomster::Application.configure do
   #   :enable_starttls_auto => true
   # }
   
-  config.action_mailer.smtp_settings = {
-  :address   => "smtp.mandrillapp.com",
-  :port      => 587,
-  :user_name => ENV["MANDRILL_USERNAME"],
-  :password  => ENV["MANDRILL_API_KEY"]
-}
+  #   config.action_mailer.smtp_settings = {
+  #   :address   => "smtp.mandrillapp.com",
+  #   :port      => 587,
+  #   :user_name => ENV["MANDRILL_USERNAME"],
+  #   :password  => ENV["MANDRILL_API_KEY"]
+  # }
   
   config.action_mailer.default_url_options = { :host => ENV['IP'], :port => ENV['PORT'] }
   # Settings specified here will take precedence over those in config/application.rb.
