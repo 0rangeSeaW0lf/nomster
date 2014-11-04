@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 1.2'
 
 # Twitter Bootstrap template
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'sprockets', '2.11.0'
 
 #Use Autoprefixer
 gem 'autoprefixer-rails'
