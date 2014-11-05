@@ -1,6 +1,6 @@
 Nomster::Application.configure do
   
-  Rails.application.routes.default_url_options[:host] = "nomster-jose-moreno.herokuapp.com"
+  # Rails.application.routes.default_url_options[:host] = "nomster-jose-moreno.herokuapp.com"
   
   # Code is not reloaded between requests.
   config.cache_classes = true
