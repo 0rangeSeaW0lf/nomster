@@ -1,7 +1,7 @@
 Nomster::Application.configure do
   
   # Rails.application.routes.default_url_options[:host] = { :host => ENV['IP'], :port => ENV['PORT'] }
-  # Rails.application.routes.default_url_options[:host] = "nomster-c9-jmorenor.c9.io"
+  Rails.application.routes.default_url_options[:host] = "nomster-c9-jmorenor.c9.io"
   
   config.action_mailer.default_url_options = { :host => ENV['IP'], :port => ENV['PORT'] }
   # Settings specified here will take precedence over those in config/application.rb.
